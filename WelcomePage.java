@@ -22,7 +22,7 @@ public class WelcomePage extends RegistrationPage{
          	    ImageIcon logo = new ImageIcon("img/MU_Logo.png");
        	     
        	        JLabel image = new JLabel("", JLabel.CENTER);
-       	        image.setBounds(0, 60, frame.getWidth(), 130);
+       	        image.setBounds(0, 50, frame.getWidth(), 130);
        	        image.setIcon(logo);
        	        frame.add(image);
        	        
@@ -33,9 +33,9 @@ public class WelcomePage extends RegistrationPage{
           	    welcome.setForeground(new Color(108,104,153));
     	        frame.add(welcome);
     	        
-    	        JLabel feedback = new JLabel("<html><div style = 'text-align: center;'>You can find your Bus Schedule, <br> simply by selecting The Day & The Root.</br> </html>", JLabel.CENTER);
+    	        JLabel feedback = new JLabel("<html><div style = 'text-align: center;'>Let's find your Bus Stopages, <br> simply by selecting The Day & The Root.</br> </html>", JLabel.CENTER);
     	        feedback.setBounds(0, 297, frame.getWidth(), 40);
-    	        feedback.setFont(new Font("Lato",Font.BOLD,14));
+    	        feedback.setFont(new Font("Lato",Font.BOLD,18));
     	        feedback.setForeground(new Color(108,104,153));
     		    frame.add(feedback);
     		    
@@ -60,4 +60,10 @@ public class WelcomePage extends RegistrationPage{
          	    frame.setVisible(true);
             	  
               }
+
+			
+
+			public WelcomePage() {
+				// TODO Auto-generated constructor stub
+			}
 }
